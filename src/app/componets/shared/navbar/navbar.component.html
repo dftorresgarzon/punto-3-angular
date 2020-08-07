@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" [routerLink]="['home']">
+        <img src="assets/img/empleado.svg" width="30" height="30" class="d-inline-block align-top" alt=""
+            loading="lazy">
+        Empleados banco
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="search">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Buscar...">
+        </div>
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/colombia.svg" width="30" height="30" class="d-inline-block align-top" alt=""
+                        loading="lazy">
+                    Gestion empleados
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Nuevo empleado</a>
+                    <a class="dropdown-item" href="#">Ver Todos empleados</a>
+                    <a class="dropdown-item" href="#">Gestionar Empleados</a>
+                </div>
+            </li>
+
+
+        </ul>
+
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item ">
+                <div class="ValorTotal">
+                    <a class="nav-link" href="#">Felipe</a>
+                    <span class="material-icons">account_circle</span>
+                </div>
+            </li>
+        </ul>
+
+
+    </div>
+</nav>

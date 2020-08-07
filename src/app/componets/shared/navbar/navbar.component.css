@@ -1,0 +1,85 @@
+/*estilo imagen icono tienda real*/
+.navbar-brand > img{
+    margin-right: 0.30rem;
+}
+
+/*estilo div input buscar*/
+.search{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 9px;
+    display: flex;
+    margin: 0px 1rem;
+}
+.search > input{
+    border: none;
+    flex-grow: 1;
+    margin: 0px 5px;
+}
+.search > span{
+    color: gray;
+    font-size: 19px;
+    margin: 0px 0px 0px 5px;
+}
+
+/*imagen estilo icono ciudad*/
+#navbarDropdown > img {
+    margin-right: 0.30rem;
+}
+
+/*estilo direccion de pedido*/
+.direccion{
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+}
+.direccion >span{
+    font-size: 30px ;
+    color: white;
+}
+.direccion > div{
+    font-size: 10px;
+}
+/*estilo iniciar sesion o registrarse*/
+.registarse{
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.registarse > span{
+    font-size: 30px;
+    color: white;
+}
+.registarse > div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.registarse > div > p:first-child{
+    margin: 0px;
+    color: #d0006f;
+    font-size: 10px;
+}
+.registarse > div > p + p{
+    margin: 0px;
+    color: black;
+    font-size: 10px;
+}
+/*estilo valor total de pedido*/
+.ValorTotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.ValorTotal > span{
+    color: white;
+}
